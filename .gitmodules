@@ -1,0 +1,6 @@
+[submodule "vendor/eigen"]
+	path = vendor/eigen
+	url = https://gitlab.com/libeigen/eigen.git
+[submodule "vendor/qpp"]
+	path = vendor/qpp
+	url = https://github.com/softwareQinc/qpp.git
