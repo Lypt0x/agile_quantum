@@ -17,5 +17,4 @@ add_executable("${Q_AGILE}" "${REC_SRC}")
 target_include_directories("${Q_AGILE}" PRIVATE
         "${CMAKE_SOURCE_DIR}/include/"
         "${CMAKE_SOURCE_DIR}/vendor/qpp/include/"
-        "${CMAKE_SOURCE_DIR}/vendor/eigen/"
-        "${OPENSSL_INCLUDE_DIR}")
+        "${CMAKE_SOURCE_DIR}/vendor/eigen/")
